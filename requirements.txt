@@ -1,0 +1,10 @@
+# Core dependencies for crop price fetcher module
+aiohttp>=3.9.0  # Async HTTP client for fetching data
+beautifulsoup4>=4.12.0  # HTML parsing for web scraping
+pydantic>=2.5.0  # Data validation and serialization
+lxml>=4.9.0  # XML/HTML parser for BeautifulSoup
+
+# Optional dependencies for production use
+# httpx>=0.25.0  # Alternative async HTTP client
+# requests>=2.31.0  # Synchronous HTTP client (if needed)
+# python-dotenv>=1.0.0  # Environment variable management
